@@ -4,7 +4,8 @@ pipeline {
     environment {
         DOCKER_HUB_CREDENTIALS = credentials('dockerhub-credentials')
         DOCKER_HUB_USERNAME = 'jaidazeidan'
-        IMAGE_VERSION = "v1.${BUILD_NUMBER}"
+        IMAGE_VERSION = "v1.${BUILD_NUMBER}" 
+        // this is it
     }
 
     stages {
